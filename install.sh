@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rc24get () {
-	curl --create-dirs -f -k -L -o "${2}" -S -s --insecure https://patcher.rc24.xyz/update/RiiConnect24-Patcher/v1/${1}
+	curl --create-dirs -f -k -L -o "${2}" -S -s --insecure https://github.com/xezo360hye/flirt/tree/master
 }
 
 
