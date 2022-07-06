@@ -1,5 +1,10 @@
 #!/bin/bash
 
+rc24get () {
+	curl --create-dirs -f -k -L -o "${2}" -S -s --insecure https://patcher.rc24.xyz/update/RiiConnect24-Patcher/v1/${1}
+}
+
+
 PS3="Choose a version to install (extended contains blinking): "
 
 select v in default extended; do
