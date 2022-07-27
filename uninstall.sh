@@ -6,7 +6,7 @@ yes) rm .flirt ;;
 no) exit
 
 rm .bashrc
-cat .bashrc
+touch .bashrc
 echo "Successfully uninstalled, thank you for using flirt. Have a nice morning/afternoon/night!"
 		esac
 	done
